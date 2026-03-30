@@ -10,6 +10,7 @@ export default defineConfig({
       '/api': {
         target: 'http://managework.railway.app',
         changeOrigin: true,
+        
       },
     },
   },
