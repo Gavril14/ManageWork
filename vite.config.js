@@ -8,7 +8,7 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-        target: 'http://managework.railway.app',
+        target: 'http://managework.railway.app', 
         changeOrigin: true,
       },
     },
